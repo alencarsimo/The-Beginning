@@ -1,0 +1,20 @@
+programa {
+  funcao inicio()   {
+
+    real media
+    inteiro nota = 0
+
+    escreva("Por favor, informe uma nota entre 0 e 10 \n")
+    leia(nota)
+
+    se (nota < 0) {
+      escreva("Nota inválida \n")
+    }
+
+    se (nota > 10) {
+      escreva("Nota inválida \n")
+    }
+
+    escreva("A nota é:" + nota)
+    }
+}
